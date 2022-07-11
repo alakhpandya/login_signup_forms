@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awsome css -->
+    <link rel="stylesheet" href="/css/all.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Sign up | Indian Aeronautics Club</title>
+</head>
+
+<body>
+    <div class="form-container signup-container">
+        <form action="">
+            <h3 class="form-title">Join us</h3>
+            <div class="user-info">
+                <!-- --------- Personal Info --------- -->
+                <div class="personal-info">
+                    <div class="input-box">
+                        <input type="text" name="uName" id="uName" required>
+                        <label for="uName">Full Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="uEmail" id="uEmail" required>
+                        <label for="uEmail">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="uMobile" id="uMobile" required>
+                        <label for="uMobile">Mobile Number</label>
+                    </div>
+                </div>
+                <!-- --------- Account Info --------- -->
+                <div class="account-info">
+                    <div class="input-box">
+                        <input type="text" name="uUser" id="uUser" required>
+                        <label for="uUser">User Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="uPwd" id="uPwd" required>
+                        <label for="uPwd">Password</label>
+                        <i class="fa-solid fa-eye eye-icon"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="uCPwd" id="uCPwd" required>
+                        <label for="uCPwd">Conform Password</label>
+                        <i class="fa-solid fa-eye eye-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- --------- Gender Container --------- -->
+            <div class="gender-container">
+                <div class="gender-box">
+                    <input type="radio" name="uGender" id="male"> <label for="male">Male</span></label>
+                </div>
+                <div class="gender-box">
+                    <input type="radio" name="uGender" id="female">
+                    <label for="female">Female</span></label>
+                </div>
+                <div class="gender-box">
+                    <input type="radio" name="uGender" id="np">
+                    <label for="np">I don't prefer to say</span></label>
+                </div>
+            </div>
+
+            <!-- --------- TnC --------- -->
+            <div class="tnc-box">
+                <input type="checkbox" name="tnc" id="tnc">
+                <label for="tnc">I agree to the terms and conditions for using the services.</label>
+            </div>
+
+            <!-- --------- Submit Button --------- -->
+            <div class="submit-box">
+                <input type="submit" value="Signup">
+            </div>
+
+            <!-- --------- New/Existing User --------- -->
+            <div class="new-old-user">
+                <span>Already a user?</span>
+                <span><a href="/login.html">Login</a> here!</span>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- font awesome js -->
+    <script src="/js/all.min.js"></script>
+</body>
+
+</html>
